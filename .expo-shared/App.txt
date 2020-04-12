@@ -6,7 +6,6 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
 	  <Text>Testing Pushing Commits</Text>
-    <Text> Testing Push Commit - Eli</Text>
     </View>
   );
 }
