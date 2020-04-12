@@ -1,4 +1,8 @@
 
+// Used this code - has the packages that you need to install 
+// https://aboutreact.com/collapsible-accordion-expandable-view/
+/*Example of Collapsible - Accordion - Expandable View in React Native*/
+>>>>>>> 8637cb4071b76f1dbaef29cdc83d9aad03913681
 import React, { Component } from 'react';
 import {Switch,ScrollView,StyleSheet,Text,View,TouchableOpacity,} from 'react-native';
 import * as Animatable from 'react-native-animatable';
