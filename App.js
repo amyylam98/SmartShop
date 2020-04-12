@@ -1,3 +1,5 @@
+// Used this code - has the packages that you need to install 
+// https://aboutreact.com/collapsible-accordion-expandable-view/
 /*Example of Collapsible - Accordion - Expandable View in React Native*/
 import React, { Component } from 'react';
 //import react in our project
