@@ -1,48 +1,47 @@
-/*Example of Collapsible - Accordion - Expandable View in React Native*/
-import React, { Component } from 'react';
-//import react in our project
-import {
-  Switch,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-  TouchableOpacity,
-} from 'react-native';
-//import basic react native components
-import * as Animatable from 'react-native-animatable';
-//import for the animation of Collapse and Expand
-import Collapsible from 'react-native-collapsible';
-//import for the collapsible/Expandable view
-import Accordion from 'react-native-collapsible/Accordion';
-//import for the Accordion view
 
-//Dummy content to show
-//You can also use dynamic data by calling web service
+import React, { Component } from 'react';
+import {Switch,ScrollView,StyleSheet,Text,View,TouchableOpacity,} from 'react-native';
+import * as Animatable from 'react-native-animatable';
+import Collapsible from 'react-native-collapsible';
+import Accordion from 'react-native-collapsible/Accordion';
+
+
 const CONTENT = [
   {
-    title: 'Terms and Conditions',
+    title: 'Past Lists',
     content:
-      'The following terms and conditions, together with any referenced documents (collectively, "Terms of Use") form a legal agreement between you and your employer, employees, agents, contractors and any other entity on whose behalf you accept these terms (collectively, “you” and “your”), and ServiceNow, Inc. (“ServiceNow,” “we,” “us” and “our”).',
+      '',
   },
   {
-    title: 'Privacy Policy',
+    title: 'New List',
     content:
-      'A Privacy Policy agreement is the agreement where you specify if you collect personal data from your users, what kind of personal data you collect and what you do with that data.',
+      '',
   },
   {
-    title: 'Return Policy',
+    title: 'Receipts',
     content:
-      'Our Return & Refund Policy template lets you get started with a Return and Refund Policy agreement. This template is free to download and use.According to TrueShip study, over 60% of customers review a Return/Refund Policy before they make a purchasing decision.',
+      '',
+  },
+  {
+    title: 'Trip Summaries',
+    content:
+      '',
+  },
+  {
+    title: 'Cost Summaries',
+    content:
+      '',
   },
 ];
 
 //To make the selector (Something like tabs)
 const SELECTORS = [
-  { title: 'T&C', value: 0 },
-  { title: 'Privacy Policy', value: 1 },
-  { title: 'Return Policy', value: 2 },
-  { title: 'Reset all' },
+  { title: 'Past', value: 0 },
+  { title: 'New', value: 1 },
+  { title: 'Receipts', value: 2 },
+  { title: 'Trips', value: 3 },
+  { title: 'Costs', value: 4 },
+  { title: 'Close All' },
 ];
 
 export default class App extends Component {
@@ -102,63 +101,8 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <ScrollView contentContainerStyle={{ paddingTop: 30 }}>
-          <Text style={styles.title}>Collapsible/Accordion Example</Text>
-
-          {/*Code for Single Collapsible Start*/}
-          <TouchableOpacity onPress={this.toggleExpanded}>
-            <View style={styles.header}>
-              <Text style={styles.headerText}>Single Collapsible</Text>
-              {/*Heading of Single Collapsible*/}
-            </View>
-          </TouchableOpacity>
-          {/*Content of Single Collapsible*/}
-          <Collapsible collapsed={this.state.collapsed} align="center">
-            <View style={styles.content}>
-              <Text style={{ textAlign: 'center' }}>
-                This is a dummy text of Single Collapsible View
-              </Text>
-            </View>
-          </Collapsible>
-          {/*Code for Single Collapsible Ends*/}
-
-          <View style={{ backgroundColor: '#000', height: 1, marginTop: 10 }} />
-          <View style={styles.multipleToggle}>
-            <Text style={styles.multipleToggle__title}>
-              Multiple Expand Allowed?
-            </Text>
-            <Switch
-              value={multipleSelect}
-              onValueChange={multipleSelect =>
-                this.setState({ multipleSelect })
-              }
-            />
-          </View>
-          <Text style={styles.selectTitle}>
-            Please select below option to expand
-          </Text>
-
-          {/*Code for Selector starts here*/}
-          <View style={styles.selectors}>
-            {SELECTORS.map(selector => (
-              <TouchableOpacity
-                key={selector.title}
-                onPress={() => this.setSections([selector.value])}
-                //on Press of any selector sending the selector value to
-                // setSections function which will expand the Accordion accordingly
-              >
-                <View style={styles.selector}>
-                  <Text
-                    style={
-                      activeSections.includes(selector.value) &&
-                      styles.activeSelector
-                    }>
-                    {selector.title}
-                  </Text>
-                </View>
-              </TouchableOpacity>
-            ))}
-          </View>
-          {/*Code for Selector ends here*/}
+          <Text style={styles.title}>SmartShop</Text>
+          <View style={{ backgroundColor: '#000', height: 1, marginTop: -10 }} />
 
           {/*Code for Accordion/Expandable List starts here*/}
           <Accordion
@@ -184,6 +128,43 @@ export default class App extends Component {
           />
           {/*Code for Accordion/Expandable List ends here*/}
         </ScrollView>
+
+                  {/*Code for Selector starts here*/}
+                  <View style={styles.selectors}>
+            {SELECTORS.map(selector => (
+              <TouchableOpacity
+                key={selector.title}
+                onPress={() => this.setSections([selector.value])}
+                //on Press of any selector sending the selector value to
+                // setSections function which will expand the Accordion accordingly
+              >
+                <View style={styles.selector}>
+                  <Text
+                    style={
+                      activeSections.includes(selector.value) &&
+                      styles.activeSelector
+                    }>
+                    {selector.title}
+                  </Text>
+                </View>
+              </TouchableOpacity>
+            ))}
+          </View>
+          {/*Code for Selector ends here*/}
+
+        {/*Code for Toggle Button*/}
+        <View style={styles.multipleToggle}>
+            <Text style={styles.multipleToggle__title}>
+              Multiple Expand Allowed?
+            </Text>
+            <Switch
+              value={multipleSelect}
+              onValueChange={multipleSelect =>
+                this.setState({ multipleSelect })
+              }
+            />
+          </View>
+
       </View>
     );
   }
@@ -197,7 +178,7 @@ const styles = StyleSheet.create({
   },
   title: {
     textAlign: 'center',
-    fontSize: 18,
+    fontSize: 25,
     fontWeight: '300',
     marginBottom: 20,
   },
