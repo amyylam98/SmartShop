@@ -1,0 +1,887 @@
+{
+    "mushrooms,sugar": [
+        "pepper",
+        "salt",
+        "sesame seed oil"
+    ],
+    "salt,soy sauce": [
+        "starch",
+        "ginger",
+        "sesame seed oil",
+        "pepper",
+        "sugar"
+    ],
+    "cornstarch,sesame seed oil": [
+        "pepper",
+        "spring onions"
+    ],
+    "cornstarch,spring onions": [
+        "pepper",
+        "sesame seed oil"
+    ],
+    "pepper,sesame seed oil": [
+        "cornstarch",
+        "spring onions",
+        "mushrooms",
+        "sugar",
+        "salt",
+        "soy sauce",
+        "ginger"
+    ],
+    "pepper,spring onions": [
+        "cornstarch",
+        "sesame seed oil",
+        "salt"
+    ],
+    "ginger,sesame seed oil": [
+        "oil",
+        "soy sauce",
+        "pepper",
+        "salt",
+        "spring onions"
+    ],
+    "oil,soy sauce": [
+        "ginger",
+        "sesame seed oil"
+    ],
+    "salt,sesame seed oil": [
+        "mushrooms",
+        "sugar",
+        "pepper",
+        "soy sauce",
+        "ginger",
+        "spring onions"
+    ],
+    "mushrooms,pepper": [
+        "salt",
+        "sesame seed oil",
+        "sugar"
+    ],
+    "mushrooms,sesame seed oil": [
+        "pepper",
+        "salt",
+        "sugar"
+    ],
+    "oil,pepper": [
+        "ginger",
+        "sugar"
+    ],
+    "sesame seed oil,sugar": [
+        "mushrooms",
+        "pepper",
+        "salt",
+        "soy sauce"
+    ],
+    "mushrooms,salt": [
+        "sesame seed oil",
+        "sugar",
+        "pepper"
+    ],
+    "pepper,soy sauce": [
+        "sesame seed oil",
+        "sugar",
+        "ginger",
+        "salt"
+    ],
+    "cornstarch,pepper": [
+        "sesame seed oil",
+        "spring onions"
+    ],
+    "garlic,spring onions": [
+        "ginger",
+        "soy sauce"
+    ],
+    "oil,sesame seed oil": [
+        "ginger",
+        "soy sauce"
+    ],
+    "olive oil,rosemary": [
+        "bay leaves",
+        "garlic"
+    ],
+    "oil,sugar": [
+        "ginger",
+        "pepper",
+        "salt"
+    ],
+    "beef,butter": [
+        "beef stock"
+    ],
+    "thyme,vegetable oil": [
+        "allspice",
+        "red pepper",
+        "garlic"
+    ],
+    "ginger,oil": [
+        "sesame seed oil",
+        "soy sauce",
+        "pepper",
+        "sugar"
+    ],
+    "bay leaves,olive oil": [
+        "garlic",
+        "rosemary"
+    ],
+    "bay leaves,garlic": [
+        "rosemary",
+        "olive oil"
+    ],
+    "soy sauce,spring onions": [
+        "sesame seed oil",
+        "ginger"
+    ],
+    "ginger,salt": [
+        "sesame seed oil",
+        "soy sauce",
+        "pepper"
+    ],
+    "salt,spring onions": [
+        "sesame seed oil",
+        "pepper"
+    ],
+    "eggs,self-raising flour": [
+        "butter",
+        "vanilla extract",
+        "milk"
+    ],
+    "baking powder,eggs": [
+        "butter",
+        "vanilla extract"
+    ],
+    "beef,plain flour": [
+        "beef stock",
+        "thyme",
+        "carrots"
+    ],
+    "beef,salt": [
+        "beef stock",
+        "onion",
+        "pepper"
+    ],
+    "ginger,soy sauce": [
+        "sesame seed oil",
+        "spring onions",
+        "garlic"
+    ],
+    "garlic,rosemary": [
+        "bay leaves",
+        "onion",
+        "olive oil"
+    ],
+    "baking powder,butter": [
+        "eggs",
+        "vanilla extract"
+    ],
+    "carrots,plain flour": [
+        "beef",
+        "butter"
+    ],
+    "allspice,thyme": [
+        "red pepper",
+        "vegetable oil"
+    ],
+    "sesame seed oil,soy sauce": [
+        "spring onions",
+        "ginger"
+    ],
+    "eggs,vanilla extract": [
+        "baking powder",
+        "butter"
+    ],
+    "allspice,red pepper": [
+        "thyme"
+    ],
+    "allspice,vegetable oil": [
+        "thyme"
+    ],
+    "carrots,red pepper": [
+        "thyme"
+    ],
+    "red pepper,vegetable oil": [
+        "thyme"
+    ],
+    "carrots,salt": [
+        "onion",
+        "pepper"
+    ],
+    "onion,sesame seed oil": [
+        "soy sauce"
+    ],
+    "oyster sauce,sugar": [
+        "soy sauce"
+    ],
+    "salt,starch": [
+        "soy sauce"
+    ],
+    "beef stock,pepper": [
+        "butter",
+        "salt"
+    ],
+    "milk,sugar": [
+        "flour",
+        "eggs"
+    ],
+    "garlic clove,sugar": [
+        "olive oil",
+        "onion"
+    ],
+    "beef,pepper": [
+        "onion",
+        "salt"
+    ],
+    "carrots,pepper": [
+        "onion",
+        "salt"
+    ],
+    "chicken breast,garlic": [
+        "chicken stock"
+    ],
+    "double cream,eggs": [
+        "butter",
+        "milk"
+    ],
+    "sesame seed oil,spring onions": [
+        "soy sauce"
+    ],
+    "ginger,spring onions": [
+        "soy sauce"
+    ],
+    "bay leaf,olive oil": [
+        "thyme",
+        "garlic"
+    ],
+    "garlic,red pepper": [
+        "thyme",
+        "onion"
+    ],
+    "milk,onion": [
+        "parsley"
+    ],
+    "onion,spring onions": [
+        "soy sauce"
+    ],
+    "parsley,pepper": [
+        "butter",
+        "salt",
+        "onion"
+    ],
+    "hotsauce,salt": [
+        "pepper"
+    ],
+    "beef stock,olive oil": [
+        "butter",
+        "plain flour"
+    ],
+    "milk,vanilla extract": [
+        "butter",
+        "eggs"
+    ],
+    "muscovado sugar,plain flour": [
+        "butter",
+        "eggs"
+    ],
+    "muscovado sugar,vanilla extract": [
+        "butter",
+        "eggs"
+    ],
+    "self-raising flour,vanilla extract": [
+        "butter",
+        "eggs"
+    ],
+    "cinnamon,salt": [
+        "butter",
+        "milk",
+        "eggs"
+    ],
+    "egg,sugar": [
+        "soy sauce"
+    ],
+    "onion,soy sauce": [
+        "ginger"
+    ],
+    "oyster sauce,soy sauce": [
+        "sugar"
+    ],
+    "carrots,sugar": [
+        "vegetable oil"
+    ],
+    "brown sugar,butter": [
+        "milk"
+    ],
+    "beef,onion": [
+        "pepper",
+        "salt"
+    ],
+    "baking powder,milk": [
+        "butter",
+        "eggs"
+    ],
+    "parsley,salt": [
+        "pepper",
+        "onion"
+    ],
+    "celery,garlic": [
+        "olive oil",
+        "onion",
+        "carrots"
+    ],
+    "eggs,onion": [
+        "parsley"
+    ],
+    "beef,thyme": [
+        "plain flour"
+    ],
+    "beef stock,salt": [
+        "pepper",
+        "butter"
+    ],
+    "ginger,sugar": [
+        "pepper"
+    ],
+    "potatoes,salt": [
+        "pepper"
+    ],
+    "sugar,vegetable oil": [
+        "carrots",
+        "garlic",
+        "butter"
+    ],
+    "butter,self-raising flour": [
+        "milk",
+        "eggs"
+    ],
+    "olive oil,salt": [
+        "pepper",
+        "garlic"
+    ],
+    "baking powder,vanilla extract": [
+        "butter",
+        "eggs"
+    ],
+    "celery,olive oil": [
+        "garlic",
+        "onion"
+    ],
+    "bay leaf,butter": [
+        "parsley"
+    ],
+    "mushrooms,olive oil": [
+        "parsley",
+        "garlic"
+    ],
+    "bay leaves,rosemary": [
+        "garlic",
+        "olive oil"
+    ],
+    "caster sugar,milk": [
+        "butter",
+        "eggs"
+    ],
+    "cumin,olive oil": [
+        "garlic",
+        "onion"
+    ],
+    "ginger,vegetable oil": [
+        "garlic",
+        "onion"
+    ],
+    "caster sugar,self-raising flour": [
+        "milk",
+        "butter"
+    ],
+    "butter,thyme": [
+        "plain flour",
+        "garlic"
+    ],
+    "butter,icing sugar": [
+        "caster sugar"
+    ],
+    "chicken stock,salt": [
+        "pepper"
+    ],
+    "soy sauce,sugar": [
+        "pepper"
+    ],
+    "butter,cinnamon": [
+        "caster sugar",
+        "milk",
+        "eggs"
+    ],
+    "cinnamon,eggs": [
+        "sugar",
+        "butter"
+    ],
+    "flour,milk": [
+        "sugar",
+        "eggs",
+        "butter"
+    ],
+    "ginger,pepper": [
+        "sugar"
+    ],
+    "beef,beef stock": [
+        "plain flour",
+        "salt",
+        "butter"
+    ],
+    "beef,carrots": [
+        "plain flour"
+    ],
+    "butter,leek": [
+        "plain flour"
+    ],
+    "butter,onions": [
+        "plain flour"
+    ],
+    "egg yolks,salt": [
+        "plain flour"
+    ],
+    "hotsauce,pepper": [
+        "salt"
+    ],
+    "pepper,potatoes": [
+        "salt"
+    ],
+    "soy sauce,starch": [
+        "salt"
+    ],
+    "butter,flour": [
+        "milk",
+        "eggs"
+    ],
+    "flour,sugar": [
+        "milk"
+    ],
+    "carrots,vegetable oil": [
+        "sugar"
+    ],
+    "egg,soy sauce": [
+        "sugar"
+    ],
+    "oil,salt": [
+        "sugar"
+    ],
+    "butter,vanilla extract": [
+        "eggs"
+    ],
+    "butter,muscovado sugar": [
+        "eggs"
+    ],
+    "flour,salt": [
+        "milk",
+        "butter"
+    ],
+    "olive oil,pepper": [
+        "salt",
+        "garlic"
+    ],
+    "butter,pepper": [
+        "salt"
+    ],
+    "onion,pepper": [
+        "salt"
+    ],
+    "almonds,butter": [
+        "eggs"
+    ],
+    "baking powder,caster sugar": [
+        "eggs",
+        "butter"
+    ],
+    "chicken stock,pepper": [
+        "salt"
+    ],
+    "carrots,cumin": [
+        "onion"
+    ],
+    "salt,tomatoes": [
+        "onion"
+    ],
+    "beef stock,butter": [
+        "plain flour",
+        "salt"
+    ],
+    "egg yolks,plain flour": [
+        "salt"
+    ],
+    "milk,pepper": [
+        "salt",
+        "butter"
+    ],
+    "olive oil,red pepper": [
+        "salt"
+    ],
+    "bay leaf,celery": [
+        "olive oil"
+    ],
+    "caster sugar,garlic": [
+        "olive oil"
+    ],
+    "dry white wine,garlic": [
+        "olive oil"
+    ],
+    "dry white wine,onion": [
+        "olive oil"
+    ],
+    "eggs,garlic": [
+        "olive oil"
+    ],
+    "garlic,parmesan": [
+        "olive oil"
+    ],
+    "garlic,red wine": [
+        "olive oil"
+    ],
+    "paprika,tomatoes": [
+        "olive oil"
+    ],
+    "celery,thyme": [
+        "garlic"
+    ],
+    "onion,rosemary": [
+        "garlic"
+    ],
+    "parsley,rosemary": [
+        "garlic"
+    ],
+    "milk,plain flour": [
+        "eggs",
+        "butter"
+    ],
+    "garlic,pepper": [
+        "salt"
+    ],
+    "cinnamon,olive oil": [
+        "onion",
+        "garlic"
+    ],
+    "dry white wine,olive oil": [
+        "onion",
+        "garlic"
+    ],
+    "paprika,red pepper": [
+        "onion",
+        "salt",
+        "garlic"
+    ],
+    "garlic,parsley": [
+        "olive oil",
+        "onion"
+    ],
+    "carrots,garlic": [
+        "onion"
+    ],
+    "almonds,eggs": [
+        "butter"
+    ],
+    "bay leaf,parsley": [
+        "butter"
+    ],
+    "beef stock,parsley": [
+        "butter"
+    ],
+    "beef stock,onion": [
+        "salt",
+        "butter"
+    ],
+    "brown sugar,milk": [
+        "butter"
+    ],
+    "caster sugar,icing sugar": [
+        "butter"
+    ],
+    "caster sugar,plain flour": [
+        "butter"
+    ],
+    "double cream,icing sugar": [
+        "butter"
+    ],
+    "double cream,milk": [
+        "butter"
+    ],
+    "eggs,lemon": [
+        "butter"
+    ],
+    "eggs,muscovado sugar": [
+        "butter"
+    ],
+    "eggs,nutmeg": [
+        "butter"
+    ],
+    "lemon,sugar": [
+        "butter"
+    ],
+    "milk,muscovado sugar": [
+        "butter"
+    ],
+    "cumin,onion": [
+        "garlic"
+    ],
+    "cumin,paprika": [
+        "onion",
+        "garlic"
+    ],
+    "milk,parsley": [
+        "onion",
+        "butter"
+    ],
+    "potatoes,thyme": [
+        "onion"
+    ],
+    "potatoes,vegetable stock": [
+        "onion"
+    ],
+    "cinnamon,onion": [
+        "olive oil"
+    ],
+    "butter,olive oil": [
+        "garlic"
+    ],
+    "salt,thyme": [
+        "garlic",
+        "butter"
+    ],
+    "soy sauce,vegetable oil": [
+        "garlic"
+    ],
+    "cinnamon,garlic": [
+        "olive oil"
+    ],
+    "garlic,red onions": [
+        "olive oil"
+    ],
+    "garlic,tomato puree": [
+        "olive oil",
+        "onion"
+    ],
+    "mushrooms,parsley": [
+        "olive oil",
+        "garlic"
+    ],
+    "thyme,tomato puree": [
+        "olive oil"
+    ],
+    "carrots,thyme": [
+        "onion"
+    ],
+    "carrots,parsley": [
+        "garlic"
+    ],
+    "chicken stock,plain flour": [
+        "garlic"
+    ],
+    "coriander,paprika": [
+        "garlic"
+    ],
+    "olive oil,red wine": [
+        "garlic"
+    ],
+    "parsley,tomato puree": [
+        "garlic"
+    ],
+    "potatoes,sugar": [
+        "garlic"
+    ],
+    "pepper,sugar": [
+        "salt"
+    ],
+    "celery,onion": [
+        "garlic"
+    ],
+    "olive oil,thyme": [
+        "garlic"
+    ],
+    "eggs,parsley": [
+        "onion",
+        "butter"
+    ],
+    "garlic,tomatoes": [
+        "onion",
+        "olive oil"
+    ],
+    "paprika,salt": [
+        "onion"
+    ],
+    "caster sugar,cinnamon": [
+        "butter"
+    ],
+    "cinnamon,milk": [
+        "butter"
+    ],
+    "plain flour,thyme": [
+        "butter"
+    ],
+    "bay leaf,onion": [
+        "garlic"
+    ],
+    "bay leaf,thyme": [
+        "garlic",
+        "olive oil"
+    ],
+    "chicken stock,potatoes": [
+        "butter"
+    ],
+    "milk,potatoes": [
+        "butter"
+    ],
+    "parsley,plain flour": [
+        "butter",
+        "olive oil"
+    ],
+    "plain flour,sugar": [
+        "butter"
+    ],
+    "ginger,onion": [
+        "garlic"
+    ],
+    "eggs,plain flour": [
+        "butter"
+    ],
+    "caster sugar,eggs": [
+        "butter"
+    ],
+    "garlic,paprika": [
+        "onion"
+    ],
+    "chicken breast,chicken stock": [
+        "garlic"
+    ],
+    "olive oil,plain flour": [
+        "garlic",
+        "butter"
+    ],
+    "onions,plain flour": [
+        "garlic"
+    ],
+    "red pepper,thyme": [
+        "garlic"
+    ],
+    "baking powder,plain flour": [
+        "butter"
+    ],
+    "beef stock,garlic": [
+        "butter"
+    ],
+    "chicken stock,parsley": [
+        "butter"
+    ],
+    "cinnamon,plain flour": [
+        "butter"
+    ],
+    "double cream,plain flour": [
+        "butter"
+    ],
+    "eggs,salt": [
+        "butter"
+    ],
+    "leek,plain flour": [
+        "butter"
+    ],
+    "nutmeg,salt": [
+        "butter"
+    ],
+    "olive oil,onion": [
+        "garlic"
+    ],
+    "garlic,onions": [
+        "olive oil"
+    ],
+    "lemon,parsley": [
+        "olive oil"
+    ],
+    "onion,tomatoes": [
+        "olive oil"
+    ],
+    "onions,potatoes": [
+        "olive oil"
+    ],
+    "cumin,garlic": [
+        "onion"
+    ],
+    "milk,self-raising flour": [
+        "butter"
+    ],
+    "garlic,salt": [
+        "onion"
+    ],
+    "carrots,olive oil": [
+        "onion",
+        "garlic"
+    ],
+    "coriander,garlic": [
+        "onion"
+    ],
+    "olive oil,parmesan": [
+        "garlic"
+    ],
+    "olive oil,parsley": [
+        "garlic"
+    ],
+    "olive oil,red onions": [
+        "garlic"
+    ],
+    "olive oil,tomato puree": [
+        "garlic"
+    ],
+    "onion,thyme": [
+        "garlic"
+    ],
+    "potatoes,vegetable oil": [
+        "garlic"
+    ],
+    "garlic,ginger": [
+        "onion"
+    ],
+    "milk,salt": [
+        "butter"
+    ],
+    "onion,tomato puree": [
+        "olive oil",
+        "garlic"
+    ],
+    "olive oil,tomatoes": [
+        "onion"
+    ],
+    "butter,garlic": [
+        "olive oil"
+    ],
+    "eggs,milk": [
+        "butter"
+    ],
+    "beef stock,plain flour": [
+        "butter"
+    ],
+    "parsley,potatoes": [
+        "butter"
+    ],
+    "coriander,onion": [
+        "garlic"
+    ],
+    "plain flour,salt": [
+        "butter"
+    ],
+    "butter,chicken stock": [
+        "garlic"
+    ],
+    "olive oil,onions": [
+        "garlic"
+    ],
+    "onion,vegetable oil": [
+        "garlic"
+    ],
+    "eggs,sugar": [
+        "butter"
+    ],
+    "garlic,plain flour": [
+        "butter"
+    ],
+    "nutmeg,plain flour": [
+        "butter"
+    ],
+    "onion,plain flour": [
+        "butter"
+    ],
+    "plain flour,potatoes": [
+        "butter"
+    ]
+}
