@@ -6,11 +6,7 @@ import DialogInput from 'react-native-dialog-input';
 
 export default class App extends Component {
   state = {
-	  items: [
-	{ text: 'soy sauce', key: 0, status: false },
-    { text: 'pepper', key: 1, status: true },
-    { text: 'milk', key: 2, status: false },
-	],
+	items: [],
 	nextkey: 3,
 	newitem: '',
 	recommendations: [],

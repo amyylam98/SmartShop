@@ -1,10 +1,10 @@
 {
   "webpackServerPort": null,
   "expoServerPort": 19000,
-  "expoServerNgrokUrl": "https://g5-kjz.anonymous.smartshop.exp.direct",
-  "packagerNgrokUrl": "https://packager.g5-kjz.anonymous.smartshop.exp.direct",
-  "ngrokPid": 25128,
+  "expoServerNgrokUrl": "https://g5-kjz.mmill101.smartshop.exp.direct",
+  "packagerNgrokUrl": "https://packager.g5-kjz.mmill101.smartshop.exp.direct",
+  "ngrokPid": 4284,
   "packagerPort": 19001,
-  "packagerPid": 33220,
+  "packagerPid": 14468,
   "devToolsPort": 19002
 }
